@@ -5,8 +5,8 @@
 
 **if command; then commands<br>
 \[elif commands; then commands...\]<br>
-\[else commands \]
-fi** 
+\[else commands \]<br>
+fi** <br>
 위의 형태로 쓰인다.
 
 ***
