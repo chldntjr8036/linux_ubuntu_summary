@@ -3,8 +3,8 @@
 
 ## if의 사용법
 
-**if command; then commands
-\[elif commands; then commands...\]
+**if command; then commands<br>
+\[elif commands; then commands...\]<br>
 \[else commands \]
 fi** 
 위의 형태로 쓰인다.
