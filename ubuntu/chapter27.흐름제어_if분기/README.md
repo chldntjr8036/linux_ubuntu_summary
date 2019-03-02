@@ -3,10 +3,10 @@
 
 ## if의 사용법
 
-**if command; then commands
-\[elif commands; then commands...\]
-\[else commands \]
-fi** 
+**if command; then commands<br>
+\[elif commands; then commands...\]<br>
+\[else commands \]<br>
+fi** <br>
 위의 형태로 쓰인다.
 
 ***
@@ -20,7 +20,9 @@ fi**
 * test 명령어는 이 표현식이 참이면 0, 거짓이면 1의 종료 상태값을 반환한다.
 
 * test 명령어는 정수,문자열,파일 타입에 표현식을 제공한다. **man test** 명령을 통해 알 수 있다.
- 
+
+***
+
 ## 현대식 테스트
 
 * bash의 최신 버전에는 test의 역할을 대신하는 합성 명령어를 지원한다. **\[\[expression\]\]** 이다.
@@ -52,3 +54,5 @@ cws@cws-ubuntu:~$ if (( 1 == 2 )); then echo 1; else echo 2; fi
 2
 
 ```
+
+***
